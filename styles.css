@@ -1,0 +1,24 @@
+/* Place your CSS styles in this file */
+
+h1 {
+    text-align: center;
+    font-family: "Source Sans Pro", 'Times New Roman', Times, serif;
+    font-weight: normal;
+    text-shadow: 2px 2px; /*This is lame*/
+}
+body {
+    background: lightskyblue;
+}
+button {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    border: solid 2px black;
+    padding: 10px 20px;
+    transition-duration: 0.4s;
+}
+button:hover {
+    color: white;
+    background-color: black;
+    border: solid 2px black;
+}
